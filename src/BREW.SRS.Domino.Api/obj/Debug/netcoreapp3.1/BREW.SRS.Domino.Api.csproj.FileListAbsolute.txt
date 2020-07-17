@@ -13,8 +13,14 @@ D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\b
 D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.runtimeconfig.dev.json
 D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.dll
 D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.pdb
-D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.csproj.CoreCompileInputs.cache
-D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.dll
 D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.pdb
 D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.genruntimeconfig.cache
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.csproj.CoreCompileInputs.cache
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\DEV\Personal\Genes\Project File\BREW.SRS.Domino.Api\src\BREW.SRS.Domino.Api\obj\Debug\netcoreapp3.1\BREW.SRS.Domino.Api.csproj.CopyComplete

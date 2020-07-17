@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D08CA0ED-07B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8CA42D3C-25E3-4784-BE91-F8C393827890}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREW.SRS.Domino.Api", "src\BREW.SRS.Domino.Api\BREW.SRS.Domino.Api.csproj", "{B9A03545-D043-48D0-A1C8-1C9EFCC63278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREW.SRS.Domino.Api", "src\BREW.SRS.Domino.Api\BREW.SRS.Domino.Api.csproj", "{B9A03545-D043-48D0-A1C8-1C9EFCC63278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
