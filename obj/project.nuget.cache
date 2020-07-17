@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JmW+Dbs0scRP87haovpAMxoMYnrAU26wZa5FUTukhnpx/GBFbRrEgBSzv1rf/I30KuQM17sixNuvwwssnEUswQ==",
+  "success": true,
+  "projectFilePath": "D:\\DEV\\Personal\\Genes\\Project File\\BREW.SRS.Domino.Api\\BREW.SRS.Domino.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alpe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

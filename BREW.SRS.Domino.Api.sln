@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8CA42D3C-25E3-4784-BE91-F8C393827890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREW.SRS.Domino.Api", "src\BREW.SRS.Domino.Api\BREW.SRS.Domino.Api.csproj", "{B9A03545-D043-48D0-A1C8-1C9EFCC63278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9A03545-D043-48D0-A1C8-1C9EFCC63278} = {D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A47A2F9B-74B8-4CBB-B12A-1F9687B8BA68}
+	EndGlobalSection
+EndGlobal
