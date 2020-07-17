@@ -13,7 +13,7 @@ namespace BREW.SRS.Domino.Api.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Popoy The Great","Neil Gwapo","Onyx D Goat", "Alpe The Grappler", "Cyrus The Bayrus", "Louzandy Hitmam", "Llyod John"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
