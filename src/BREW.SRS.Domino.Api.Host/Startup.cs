@@ -12,14 +12,17 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using System;
 
 namespace BREW.SRS.Domino.Api
 {
     public class Startup
     {
+        private readonly string _environment;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            _environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
         }
 
         public IConfiguration Configuration { get; }
@@ -29,6 +32,14 @@ namespace BREW.SRS.Domino.Api
         {
             services.AddAutoMapper(typeof(Startup));
             var con = Configuration.GetConnectionString("DominoDbConnection");
+
+            string connectionString = "";
+            //Database
+            if (_environment == "Local")
+                connectionString = Configuration[@"Database:ConnectionString"];
+            else
+                connectionString = Environment.GetEnvironmentVariable("DefaultConnection");
+
             services.AddDbContextPool<DominoDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DominoDbConnection")));
             services.AddControllers();
 
