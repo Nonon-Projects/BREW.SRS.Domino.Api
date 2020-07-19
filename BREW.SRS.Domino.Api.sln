@@ -7,7 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D08CA0ED-07B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8CA42D3C-25E3-4784-BE91-F8C393827890}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREW.SRS.Domino.Api", "src\BREW.SRS.Domino.Api\BREW.SRS.Domino.Api.csproj", "{B9A03545-D043-48D0-A1C8-1C9EFCC63278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREW.SRS.Domino.Host", "src\BREW.SRS.Domino.Api.Host\BREW.SRS.Domino.Host.csproj", "{8305E506-861D-436B-81BC-20FA21028F31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREW.SRS.Domino.Application", "src\BREW.SRS.Domino.Application\BREW.SRS.Domino.Application.csproj", "{9083BA77-8613-4AE5-8245-4196AE1387CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BREW.SRS.Domino.Application.Shared", "src\BREW.SRS.Domino.Application.Shared\BREW.SRS.Domino.Application.Shared.csproj", "{29EDE66C-2384-4FE2-BDB9-B36EA0F30833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BREW.SRS.Domino.Application.Entities", "BREW.SRS.Domino.Application.Entities\BREW.SRS.Domino.Application.Entities.csproj", "{77655FE2-4D17-4812-93C2-6A9F0B2B8057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,16 +21,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9A03545-D043-48D0-A1C8-1C9EFCC63278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8305E506-861D-436B-81BC-20FA21028F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8305E506-861D-436B-81BC-20FA21028F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8305E506-861D-436B-81BC-20FA21028F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8305E506-861D-436B-81BC-20FA21028F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9083BA77-8613-4AE5-8245-4196AE1387CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9083BA77-8613-4AE5-8245-4196AE1387CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9083BA77-8613-4AE5-8245-4196AE1387CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9083BA77-8613-4AE5-8245-4196AE1387CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EDE66C-2384-4FE2-BDB9-B36EA0F30833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EDE66C-2384-4FE2-BDB9-B36EA0F30833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EDE66C-2384-4FE2-BDB9-B36EA0F30833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EDE66C-2384-4FE2-BDB9-B36EA0F30833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77655FE2-4D17-4812-93C2-6A9F0B2B8057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77655FE2-4D17-4812-93C2-6A9F0B2B8057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77655FE2-4D17-4812-93C2-6A9F0B2B8057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77655FE2-4D17-4812-93C2-6A9F0B2B8057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B9A03545-D043-48D0-A1C8-1C9EFCC63278} = {D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}
+		{8305E506-861D-436B-81BC-20FA21028F31} = {D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}
+		{9083BA77-8613-4AE5-8245-4196AE1387CB} = {D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}
+		{29EDE66C-2384-4FE2-BDB9-B36EA0F30833} = {D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}
+		{77655FE2-4D17-4812-93C2-6A9F0B2B8057} = {D08CA0ED-07BC-43A5-9B21-DBA5386F2FD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A47A2F9B-74B8-4CBB-B12A-1F9687B8BA68}
