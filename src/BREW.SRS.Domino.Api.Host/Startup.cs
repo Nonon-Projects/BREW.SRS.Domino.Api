@@ -32,6 +32,8 @@ namespace BREW.SRS.Domino.Api
         {
             services.AddAutoMapper(typeof(Startup));
 
+            var a = Configuration.GetConnectionString("DominoDbConnection");
+
             services.AddDbContextPool<DominoDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DominoDbConnection")));
             services.AddControllers();
 

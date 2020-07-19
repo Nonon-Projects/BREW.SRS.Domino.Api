@@ -10,5 +10,6 @@ namespace BREW.SRS.Domino.Application.Shared.Persons
     {
         Task<List<PersonDto>> Get();
         Task<PersonDto> Ensure(PersonDto personDto);
+        Task<PersonDto> Delete(PersonDto personDto);
     }
 }

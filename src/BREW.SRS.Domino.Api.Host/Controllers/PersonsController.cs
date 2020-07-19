@@ -33,5 +33,11 @@ namespace BREW.SRS.Domino.Host.Controllers
         {
            return await _personService.Ensure(personDto);
         }
+
+        [HttpDelete("Delete")]
+        public async Task<PersonDto> Delete(PersonDto personDto)
+        {
+            return await _personService.Delete(personDto);
+        }
     }
 }

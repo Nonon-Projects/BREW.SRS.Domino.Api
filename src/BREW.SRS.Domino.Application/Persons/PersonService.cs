@@ -51,5 +51,12 @@ namespace BREW.SRS.Domino.Application
             personDto.Id = person.Id;
             return personDto;
         }
+
+        public async Task<PersonDto> Delete(PersonDto personDto)
+        {
+             _context.Persons.Remove(new Person() { Id = (int)personDto.Id });
+            await _context.SaveChangesAsync();
+            return personDto;
+        }
     }
 }
