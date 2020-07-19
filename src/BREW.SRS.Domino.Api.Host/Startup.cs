@@ -36,11 +36,11 @@ namespace BREW.SRS.Domino.Api
             string connectionString = "";
             //Database
             if (_environment == "Local")
-                connectionString = Configuration[@"Database:ConnectionString"];
+                connectionString = Configuration.GetConnectionString("DominoDbConnection");
             else
                 connectionString = Environment.GetEnvironmentVariable("DefaultConnection");
 
-            services.AddDbContextPool<DominoDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DominoDbConnection")));
+            services.AddDbContextPool<DominoDbContext>(options => options.UseSqlServer(connectionString));
             services.AddControllers();
 
             services.AddServiceBindings();
