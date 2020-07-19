@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BREW.SRS.Domino.Application.Entities\BREW.SRS.Domino.Application.Entities.csproj" />
+    <ProjectReference Include="..\BREW.SRS.Domino.Application.Shared\BREW.SRS.Domino.Application.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

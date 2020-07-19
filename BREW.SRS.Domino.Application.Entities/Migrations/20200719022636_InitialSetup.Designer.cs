@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BREW.SRS.Domino.Application.Entities.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(DominoDbContext))]
     [Migration("20200719022636_InitialSetup")]
     partial class InitialSetup
     {

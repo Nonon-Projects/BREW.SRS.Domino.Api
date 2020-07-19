@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BREW.SRS.Domino.Application.Entities
 {
-    public class AppDbContext : DbContext
+    public class DominoDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options): base(options)
+        public DominoDbContext(DbContextOptions<DominoDbContext> options): base(options)
         {
 
         }
