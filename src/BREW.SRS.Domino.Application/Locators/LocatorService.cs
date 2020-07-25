@@ -19,9 +19,18 @@ namespace BREW.SRS.Domino.Application.Locators
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public Task<LocatorDto> Delete(int id)
+        public async Task<LocatorDto> Delete(int id)
         {
-            throw new NotImplementedException();
+            var locator = _context.Locators.FirstOrDefault(x => x.Id == id);
+            var ret = new LocatorDto();
+            if (locator != null)
+            {
+                _context.Locators.Remove(locator);
+                await _context.SaveChangesAsync();
+                ret.Id = id;
+            }
+
+            return ret;
         }
 
         public async Task<LocatorDto> Ensure(LocatorDto locatorDto)
