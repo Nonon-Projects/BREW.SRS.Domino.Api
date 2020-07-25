@@ -36,7 +36,7 @@ namespace BREW.SRS.Domino.Host.Controllers
         }
 
 
-        [HttpPost("Delete")]
+        [HttpDelete("Delete")]
         public async Task<LocatorDto> Delete(int id)
         {
             return await _locatorService.Delete(id);
