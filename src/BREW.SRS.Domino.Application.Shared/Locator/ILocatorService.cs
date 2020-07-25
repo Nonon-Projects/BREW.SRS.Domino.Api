@@ -10,5 +10,7 @@ namespace BREW.SRS.Domino.Application.Shared.Locator
     {
         Task<List<LocatorDto>> Get();
         Task<LocatorDto> Ensure(LocatorDto personDto);
+
+        Task<LocatorDto> Delete(int id);
     }
 }

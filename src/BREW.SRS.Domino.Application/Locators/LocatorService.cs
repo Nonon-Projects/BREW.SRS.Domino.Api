@@ -19,6 +19,11 @@ namespace BREW.SRS.Domino.Application.Locators
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
+        public Task<LocatorDto> Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<LocatorDto> Ensure(LocatorDto locatorDto)
         {
             var locator = new Locator()
