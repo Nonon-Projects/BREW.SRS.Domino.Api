@@ -13,5 +13,7 @@ namespace BREW.SRS.Domino.Application.Entities
         }
         public DbSet<Person> Persons { get; set; }
 
+        public DbSet<Locator> Locators{ get; set; }
+
     }
 }

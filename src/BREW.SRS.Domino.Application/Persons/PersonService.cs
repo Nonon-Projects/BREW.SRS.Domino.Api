@@ -40,6 +40,9 @@ namespace BREW.SRS.Domino.Application
 
         public async Task<PersonDto> Ensure(PersonDto personDto)
         {
+
+            //BlobStorageService objBlobService = new BlobStorageService();
+
             var person = new Person()
             {
                 FirstName = personDto.FirstName,

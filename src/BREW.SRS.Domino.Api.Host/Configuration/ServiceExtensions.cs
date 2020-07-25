@@ -1,6 +1,8 @@
 ﻿using Abp.Domain.Repositories;
 using BREW.SRS.Domino.Application;
 using BREW.SRS.Domino.Application.Entities;
+using BREW.SRS.Domino.Application.Locators;
+using BREW.SRS.Domino.Application.Shared.Locator;
 using BREW.SRS.Domino.Application.Shared.Persons;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +21,7 @@ namespace BREW.SRS.Domino.Host.Configuration
              //   throw new ArgumentNullException(nameof(configuration));
 
             services.AddScoped<IPersonService,PersonService>();
+            services.AddScoped<ILocatorService, LocatorService>();
             // IRepository<Person>
 
             return services;
